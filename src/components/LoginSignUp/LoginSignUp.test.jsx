@@ -16,7 +16,7 @@ import { render, screen } from '@testing-library/react';
 import LoginSignUp from './LoginSignUp';
 import userEvent from '@testing-library/user-event';
 
-//Describe: built in function that groups related test cases together. 
+//Describe: built-in function that groups related test cases together. 
 //In this case it groups all the LoginSignUp Components 
 describe('LoginSignUp Component', () => {
     //test(....) starts the first test while using render to display content on the web
